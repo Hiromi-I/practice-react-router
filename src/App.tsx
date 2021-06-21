@@ -3,10 +3,10 @@ import { BrowserRouter, Switch, Link, Route } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
-import { Home } from "./pages/Home";
-import { About } from "./pages/About";
-import { News } from "./pages/News";
-import { Setting } from "./pages/Setting";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import News from "./pages/News";
+import Setting from "./pages/Setting";
 
 function App() {
   return (
