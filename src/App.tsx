@@ -1,7 +1,5 @@
-import React from 'react';
+
 import { BrowserRouter, Switch, Link, Route } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -33,7 +31,6 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
-      
     </div>
   );
 }
